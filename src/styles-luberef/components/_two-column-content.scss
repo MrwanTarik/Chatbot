@@ -1,0 +1,430 @@
+.two-column {
+  &__content {
+    &--120 {
+      margin-bottom: 120px;
+      @include mdq(xs-md) {
+        margin-bottom: 0;
+      }
+    }
+
+    &--88 {
+      margin-bottom: 88px;
+    }
+  }
+
+  &__absolute-img {
+    @include flipProperty('right', 'left', 0);
+    position: absolute;
+    z-index: 50;
+    width: 43.6%;
+    @include mdq(xs-md) {
+      position: relative;
+      width: auto;
+      margin-top: 30px;
+    }
+
+    &--shadow {
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+      @include mdq(xs-md) {
+        display: none;
+      }
+    }
+
+    &-reverse {
+      @include flipProperty('left', 'right', 0);
+      position: absolute;
+      z-index: 50;
+      left: 0;
+      width: 43.6%;
+      @include mdq(xs-md) {
+        position: relative;
+        width: auto;
+        order: 2;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  &__absolute-img-v2 {
+    @include flipProperty('left', 'right', 0);
+    position: absolute;
+    z-index: 50;
+    width: 43.3%;
+    @include mdq(xs-md) {
+      position: relative;
+      width: auto;
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    position: relative;
+    z-index: 50;
+
+    &,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @include regular;
+      color: $color-default-white;
+      margin-bottom: 1.25rem !important;
+      font-size: 45px;
+      line-height: 55px;
+      @include mdq(xs-md) {
+        font-size: 26px;
+        line-height: 36px;
+      }
+      @include mdq(lg-xl) {
+        font-size: 33px;
+        line-height: 43px;
+      }
+      @media only screen and (min-width: 1441px) and (max-width: 1679px) {
+        font-size: 35px;
+        line-height: 45px;
+      }
+    }
+
+    &--white {
+      &,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-bottom: 1.25rem !important;
+        color: $color-default-white;
+      }
+    }
+
+    &--dark-blue {
+      &,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: $color-dark-blue-2;
+      }
+    }
+
+    &--60 {
+      &,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        @include regular;
+        color: $color-default-white;
+        font-size: 50px;
+        line-height: 60px;
+        [dir='rtl'] & {
+          line-height: 75px;
+        }
+        @include mdq(xs-md) {
+          font-size: 26px;
+          line-height: 36px;
+        }
+        @include mdq(lg-xl) {
+          font-size: 35px !important;
+          line-height: 45px !important;
+        }
+        @media only screen and (min-width: 1441px) and (max-width: 1679px) {
+          font-size: 45px;
+          line-height: 57px;
+        }
+      }
+    }
+
+    &--45 {
+      @include flipProperty('padding-right', 'padding-left', 45%);
+    }
+
+    &--6 {
+      @include flipProperty('padding-right', 'padding-left', 6%);
+      @include mdq(xs-md) {
+        @include flipProperty('padding-right', 'padding-left', 0);
+      }
+      @include mdq(lg) {
+        @include flipProperty('padding-right', 'padding-left', 1%);
+      }
+      @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+        @include flipProperty('padding-right', 'padding-left', 6%);
+      }
+      @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+        @include flipProperty('padding-right', 'padding-left', 6%);
+      }
+      @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+        @include flipProperty('padding-right', 'padding-left', 6%);
+      }
+    }
+
+    &--6-l {
+      @include flipProperty('padding-left', 'padding-right', 6%);
+      @include mdq(xs-md) {
+        @include flipProperty('padding-left', 'padding-right', 0);
+      }
+      @include mdq(lg) {
+        [dir='ltr'] & {
+          padding-left: 1%;
+        }
+
+        [dir='rtl'] & {
+          padding-right: 5%;
+        }
+      }
+      @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+        @include flipProperty('padding-left', 'padding-right', 5%);
+      }
+      @media only screen and (min-width: 1440px) and (max-width: 1536px) {
+        @include flipProperty('padding-left', 'padding-right', 4%);
+      }
+      @media only screen and (min-width: 1537px) and (max-width: 1679px) {
+        @include flipProperty('padding-left', 'padding-right', 2%);
+      }
+      @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+        @include flipProperty('padding-left', 'padding-right', 6%);
+
+        &,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          font-size: 50px;
+          line-height: 60px;
+        }
+      }
+    }
+
+    // @media only screen and (min-width: 1024px) and (max-width: 1801px) {
+    //   br {
+    //     display: none;
+    //   }
+    // }
+  }
+
+  &__desc {
+    @include flipProperty('padding-right', 'padding-left', 17%);
+    @include mdq(xs-md) {
+      @include flipProperty('padding-right', 'padding-left', 0);
+    }
+
+    position: relative;
+    z-index: 50;
+    // margin-top: 60px;
+    @include mdq(xs-md) {
+      // margin-top: 0px;
+    }
+    @include mdq(lg) {
+      // margin-top: 30px;
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+      // margin-top: 40px;
+    }
+    @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+      // margin-top: 40px;
+    }
+
+    &,
+    p {
+      color: $color-default-white;
+      font-size: 20px;
+      line-height: 30px;
+      @include mdq(xs-md) {
+        font-size: 14px;
+        line-height: 26px;
+      }
+      @include mdq(lg) {
+        font-size: 16px;
+        line-height: 26px;
+      }
+      @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+        font-size: 16px;
+        line-height: 26px;
+      }
+      @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+        font-size: 16px;
+        line-height: 26px;
+      }
+
+      [dir='ltr'] & {
+        @include verdanaregular;
+      }
+
+      [dir='rtl'] & {
+        @include regularar;
+      }
+    }
+
+    &--21 {
+      &,
+      p {
+        @include verdanaregular;
+        color: $color-default-white;
+        font-size: 20px;
+        line-height: 30px;
+        @include mdq(xs-md) {
+          font-size: 14px;
+          line-height: 24px;
+        }
+        @include mdq(lg) {
+          font-size: 16px;
+          line-height: 26px;
+        }
+        @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+          font-size: 16px;
+          line-height: 26px;
+        }
+        @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+          font-size: 17px;
+          line-height: 27px;
+        }
+      }
+    }
+
+    &--white {
+      &,
+      p {
+        color: $color-default-white;
+      }
+    }
+
+    &--dark-gray {
+      &,
+      p {
+        color: rgba(#211e1f, 0.7);
+      }
+    }
+
+    &--dark-blue {
+      &,
+      p {
+        color: rgba(#211e1f, 0.7);
+      }
+    }
+
+    &--7 {
+      @include flipProperty('padding-right', 'padding-left', 7%);
+      @include mdq(xs-md) {
+        @include flipProperty('padding-right', 'padding-left', 0);
+      }
+      @include mdq(lg) {
+        @include flipProperty('padding-right', 'padding-left', 1%);
+      }
+      @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+        @include flipProperty('padding-right', 'padding-left', 7%);
+      }
+      @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+        @include flipProperty('padding-right', 'padding-left', 7%);
+      }
+      @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+        @include flipProperty('padding-right', 'padding-left', 7%);
+      }
+    }
+
+    &--7-l {
+      @include flipProperty('padding-left', 'padding-right', 7%);
+      [dir='rtl'] & {
+        padding-right: 7%;
+        padding-left: 2%;
+      }
+      @include mdq(xs-md) {
+        @include flipProperty('padding-left', 'padding-right', 0);
+      }
+      @include mdq(lg) {
+        [dir='ltr'] & {
+          padding-left: 2%;
+        }
+
+        [dir='rtl'] & {
+          padding-right: 4%;
+        }
+      }
+      @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+        @include flipProperty('padding-left', 'padding-right', 5%);
+      }
+      @media only screen and (min-width: 1440px) and (max-width: 1536px) {
+        @include flipProperty('padding-left', 'padding-right', 4%);
+      }
+      @media only screen and (min-width: 1537px) and (max-width: 1679px) {
+        @include flipProperty('padding-left', 'padding-right', 5%);
+      }
+      @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+        @include flipProperty('padding-left', 'padding-right', 7%);
+      }
+    }
+
+    &--pr {
+      &-24 {
+        @include flipProperty('padding-right', 'padding-left', 19%);
+        @include mdq(xs-md) {
+          @include flipProperty('padding-right', 'padding-left', 0);
+        }
+        @include mdq(lg) {
+          @include flipProperty('padding-right', 'padding-left', 1%);
+        }
+        @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+          @include flipProperty('padding-right', 'padding-left', 19%);
+        }
+        @media only screen and (min-width: 1440px) and (max-width: 1536px) {
+          @include flipProperty('padding-right', 'padding-left', 19%);
+        }
+        @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+          @include flipProperty('padding-right', 'padding-left', 19%);
+        }
+      }
+    }
+
+    &--pl {
+      &-8 {
+        @include flipProperty('padding-left', 'padding-right', 19.6%);
+        @include mdq(xs-md) {
+          @include flipProperty('padding-left', 'padding-right', 0);
+        }
+        @include mdq(lg) {
+          @include flipProperty('padding-left', 'padding-right', 1%);
+        }
+        @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+          @include flipProperty('padding-left', 'padding-right', 18.5%);
+        }
+        @media only screen and (min-width: 1440px) and (max-width: 1536px) {
+          @include flipProperty('padding-left', 'padding-right', 19%);
+        }
+        @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+          @include flipProperty('padding-left', 'padding-right', 19%);
+        }
+      }
+    }
+  }
+
+  &__img {
+    display: flex;
+    flex-flow: row;
+    padding-top: 29px;
+    @include mdq(xs-md) {
+      padding-top: 0;
+      margin-bottom: 24px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__link {
+    margin-top: 100px;
+    @include mdq(lg) {
+      margin-top: 50px;
+    }
+  }
+}

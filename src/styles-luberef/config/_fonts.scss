@@ -1,0 +1,279 @@
+@font-face {
+  font-family: 'Coheadline Bold';
+  src: url('/fonts/CoHeadline-Bold.eot');
+  src:
+    url('/fonts/CoHeadline-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/CoHeadline-Bold.woff2') format('woff2'),
+    url('/fonts/CoHeadline-Bold.woff') format('woff'),
+    url('/fonts/CoHeadline-Bold.ttf') format('truetype'),
+    url('/fonts/CoHeadline-Bold.svg#CoHeadline-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Coheadline Regular';
+  src: url('/fonts/CoHeadline-Regular.eot');
+  src:
+    url('/fonts/CoHeadline-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/CoHeadline-Regular.woff2') format('woff2'),
+    url('/fonts/CoHeadline-Regular.woff') format('woff'),
+    url('/fonts/CoHeadline-Regular.ttf') format('truetype'),
+    url('/fonts/CoHeadline-Regular.svg#CoHeadline-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Coheadline Light';
+  src: url('/fonts/CoHeadline-Light.eot');
+  src:
+    url('/fonts/CoHeadline-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/CoHeadline-Light.woff2') format('woff2'),
+    url('/fonts/CoHeadline-Light.woff') format('woff'),
+    url('/fonts/CoHeadline-Light.ttf') format('truetype'),
+    url('/fonts/CoHeadline-Light.svg#CoHeadline-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cotext Bold';
+  src: url('/fonts/CoText-Bold.eot');
+  src:
+    url('/fonts/CoText-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/CoText-Bold.woff2') format('woff2'),
+    url('/fonts/CoText-Bold.woff') format('woff'),
+    url('/fonts/CoText-Bold.ttf') format('truetype'),
+    url('/fonts/CoText-Bold.svg#CoText-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cotextcorp Regular';
+  src: url('/fonts/CoTextCorp-Regular.eot');
+  src:
+    url('/fonts/CoTextCorp-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/CoTextCorp-Regular.woff2') format('woff2'),
+    url('/fonts/CoTextCorp-Regular.woff') format('woff'),
+    url('/fonts/CoTextCorp-Regular.ttf') format('truetype'),
+    url('/fonts/CoTextCorp-Regular.svg#CoTextCorp-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cotext light';
+  src: url('/fonts/CoText-Light.eot');
+  src:
+    url('/fonts/CoText-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/CoText-Light.woff2') format('woff2'),
+    url('/fonts/CoText-Light.woff') format('woff'),
+    url('/fonts/CoText-Light.ttf') format('truetype'),
+    url('/fonts/CoText-Light.svg#CoText-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cotext Regular';
+  src: url('/fonts/CoText-Regular.eot');
+  src:
+    url('/fonts/CoText-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/CoText-Regular.woff2') format('woff2'),
+    url('/fonts/CoText-Regular.woff') format('woff'),
+    url('/fonts/CoText-Regular.ttf') format('truetype'),
+    url('/fonts/CoText-Regular.svg#CoText-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Bold';
+  src: url('/fonts/HelveticaNeueLTArabic-Bold.eot');
+  src:
+    url('/fonts/HelveticaNeueLTArabic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/HelveticaNeueLTArabic-Bold.woff2') format('woff2'),
+    url('/fonts/HelveticaNeueLTArabic-Bold.woff') format('woff'),
+    url('/fonts/HelveticaNeueLTArabic-Bold.ttf') format('truetype'),
+    url('/fonts/HelveticaNeueLTArabic-Bold.svg#HelveticaNeueLTArabic-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica 55';
+  src: url('/fonts/HelveticaNeueLTArabic-Roman.eot');
+  src:
+    url('/fonts/HelveticaNeueLTArabic-Roman.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/HelveticaNeueLTArabic-Roman.woff2') format('woff2'),
+    url('/fonts/HelveticaNeueLTArabic-Roman.woff') format('woff'),
+    url('/fonts/HelveticaNeueLTArabic-Roman.ttf') format('truetype'),
+    url('/fonts/HelveticaNeueLTArabic-Roman.svg#HelveticaNeueLTArabic-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Light';
+  src: url('/fonts/HelveticaNeueLTArabic-Light.eot');
+  src:
+    url('/fonts/HelveticaNeueLTArabic-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/HelveticaNeueLTArabic-Light.woff2') format('woff2'),
+    url('/fonts/HelveticaNeueLTArabic-Light.woff') format('woff'),
+    url('/fonts/HelveticaNeueLTArabic-Light.ttf') format('truetype'),
+    url('/fonts/HelveticaNeueLTArabic-Light.svg#HelveticaNeueLTArabic-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Verdana Bold';
+  src: url('/fonts/Verdana-Bold.eot');
+  src:
+    url('/fonts/Verdana-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Verdana-Bold.woff2') format('woff2'),
+    url('/fonts/Verdana-Bold.woff') format('woff'),
+    url('/fonts/Verdana-Bold.ttf') format('truetype'),
+    url('/fonts/Verdana-Bold.svg#Verdana-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Verdana Bold Italic';
+  src: url('/fonts/Verdana-BoldItalic.eot');
+  src:
+    url('/fonts/Verdana-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Verdana-BoldItalic.woff2') format('woff2'),
+    url('/fonts/Verdana-BoldItalic.woff') format('woff'),
+    url('/fonts/Verdana-BoldItalic.ttf') format('truetype'),
+    url('/fonts/Verdana-BoldItalic.svg#Verdana-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Verdana Regular';
+  src: url('/fonts/Verdana.eot');
+  src:
+    url('/fonts/Verdana.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Verdana.woff2') format('woff2'),
+    url('/fonts/Verdana.woff') format('woff'),
+    url('/fonts/Verdana.ttf') format('truetype'),
+    url('/fonts/Verdana.svg#Verdana') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Verdana Regular Italic';
+  src: url('/fonts/Verdana-Italic.eot');
+  src:
+    url('/fonts/Verdana-Italic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Verdana-Italic.woff2') format('woff2'),
+    url('/fonts/Verdana-Italic.woff') format('woff'),
+    url('/fonts/Verdana-Italic.ttf') format('truetype'),
+    url('/fonts/Verdana-Italic.svg#Verdana-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@mixin lightar {
+  font-family: 'Helvetica Light';
+  font-style: normal;
+  font-weight: 300;
+}
+
+@mixin regularar {
+  font-family: 'Helvetica 55';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin boldar {
+  font-family: 'Helvetica Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin light {
+  font-family: 'Coheadline Light';
+  font-style: normal;
+  font-weight: 300;
+}
+
+@mixin regular {
+  font-family: 'Coheadline Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin bold {
+  font-family: 'Coheadline Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin cotextlight {
+  font-family: 'Cotext Light';
+  font-style: normal;
+  font-weight: 300;
+}
+
+@mixin cotextregular {
+  font-family: 'Cotext Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin cotextbold {
+  font-family: 'Cotext Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin cotextcorpregular {
+  font-family: 'Cotextcorp Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin verdanaregular {
+  font-family: 'Verdana Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin verdanabold {
+  font-family: 'Verdana Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin verdanaregularitalic {
+  font-family: 'Verdana Regular Italic';
+  font-style: italic;
+  font-weight: 400;
+}
+
+@mixin verdanabolditalic {
+  font-family: 'Verdana Bold Italic';
+  font-style: italic;
+  font-weight: 700;
+}

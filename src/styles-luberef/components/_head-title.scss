@@ -1,0 +1,203 @@
+.head {
+  &__title {
+    @include mdq(xs-md) {
+      width: 100%;
+      flex: 0 0 100%;
+      margin-bottom: 1.25rem;
+    }
+
+    &,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @include regular;
+      color: $color-default-white;
+      font-size: 40px;
+      line-height: 50px;
+      @include mdq(xs-md) {
+        font-size: 26px;
+        line-height: 36px;
+      }
+      @include mdq(lg-xl) {
+        font-size: 33px !important;
+        line-height: 43px !important;
+      }
+
+      @media only screen and (min-width: 1441px) and (max-width: 1679px) {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      @media screen and (min-width: 1024px) {
+        // margin-top: -7px;
+      }
+      @media screen and (min-width: 1366px) {
+        // margin-top: -3%;
+      }
+      @media screen and (min-width: 1600px) {
+        // margin-top: -2%;
+      }
+    }
+
+    &--white {
+      &,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-bottom: 15px !important;
+        color: $color-default-white;
+      }
+    }
+
+    &--dark-blue {
+      &,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: $color-dark-blue-2;
+      }
+    }
+
+    &--90 {
+      &,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-size: 50px;
+        line-height: 60px;
+        @include mdq(xs-md) {
+          font-size: 30px;
+          line-height: 38px;
+        }
+        @include mdq(lg) {
+          font-size: 44px;
+          line-height: 48px;
+        }
+        @media only screen and (min-width: 1281px) and (max-width: 1439px) {
+          font-size: 60px;
+          line-height: 70px;
+        }
+        @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+          font-size: 40px;
+          line-height: 50px;
+        }
+        @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+          font-size: 50px;
+          line-height: 60px;
+        }
+        @media screen and (min-width: 1024px) {
+          // margin-top: -7px;
+        }
+        @media screen and (min-width: 1366px) {
+          // margin-top: -3%;
+        }
+        @media screen and (min-width: 1600px) {
+          // margin-top: -3%;
+        }
+      }
+    }
+  }
+
+  &__text {
+    //padding-top: 27px;
+    @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+      //padding-top: 19px;
+    }
+    @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+      //padding-top: 19px;
+    }
+
+    &--pt {
+      &-18 {
+        padding-top: 0;
+      }
+    }
+
+    &,
+    p {
+      color: $color-default-white;
+      font-size: 21px;
+      line-height: 30px;
+      @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+        font-size: 18px;
+        line-height: 26px;
+      }
+      @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+        font-size: 18px;
+        line-height: 26px;
+      }
+
+      [dir='ltr'] & {
+        @include verdanaregular;
+      }
+
+      [dir='rtl'] & {
+        @include regularar;
+      }
+    }
+
+    &--white {
+      &,
+      p {
+        color: $color-default-white;
+      }
+    }
+
+    &--dark-blue {
+      &,
+      p {
+        color: $color-dark-blue-2;
+      }
+    }
+
+    &--dark-gray {
+      &,
+      p {
+        color: rgba(#211e1f, 0.7);
+      }
+    }
+
+    &--21 {
+      &,
+      p {
+        font-size: 20px;
+        line-height: 30px;
+        @include mdq(xs-md) {
+          font-size: 16px;
+          line-height: 26px;
+        }
+        @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+          font-size: 16px;
+          line-height: 26px;
+        }
+        @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+
+  &__link {
+    @include mdq(xs-md) {
+      width: 100%;
+      flex: 0 0 100%;
+      margin-top: -5px;
+    }
+  }
+}

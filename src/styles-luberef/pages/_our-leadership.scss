@@ -1,0 +1,15 @@
+.main-our-leadership {
+  &__news {
+    margin-top: 132px;
+    @include mdq(xs-md) {
+      padding-bottom: 30px !important;
+      margin-top: 60px !important;
+    }
+  }
+
+  .our-leadership__buttons {
+    .container {
+      padding: 0 6px !important;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.main-our-products {
+  .our-products__slider {
+    .our-leadership__head {
+      padding: 132px 0 78px;
+      @include mdq(xs-md) {
+        padding: 60px 0 20px;
+      }
+    }
+  }
+
+  .head__text.head__text--21.head__text--white {
+    padding-left: 14%;
+
+    @include mdq(xs-md) {
+      @include flipProperty('padding-left', 'padding-right', 0%);
+    }
+    @include mdq(lg) {
+      @include flipProperty('padding-left', 'padding-right', 0%);
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+      @include flipProperty('padding-left', 'padding-right', 0%);
+    }
+    @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+      @include flipProperty('padding-left', 'padding-right', 12%);
+    }
+    @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+      @include flipProperty('padding-left', 'padding-right', 1%);
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_89760" data-name="Group 89760" transform="translate(-0.471)">
+    <g id="Rectangle_69305" data-name="Rectangle 69305" transform="translate(0.471 0)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="48" height="48" stroke="none"/>
+      <rect x="0.5" y="0.5" width="47" height="47" fill="none"/>
+    </g>
+    <g id="Group_89414" data-name="Group 89414" transform="translate(3 0.873)">
+      <g id="icons">
+        <g id="Group_89409" data-name="Group 89409">
+          <path id="Path_100661" data-name="Path 100661" d="M4.3,10.359V49.706H38.485V13.052a3.089,3.089,0,0,0-2.843-3.067L7.666,7.292A3.065,3.065,0,0,0,4.3,10.359Z" transform="translate(-4.3 -3.37)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100662" data-name="Path 100662" d="M8.2,5.9a3.837,3.837,0,0,1,4.339-3.815c5.685.673,15.484,1.87,20.646,2.469a3.939,3.939,0,0,1,3.441,3.815V8.6" transform="translate(-5.283 -2.056)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100663" data-name="Path 100663" d="M11.8,38.292l7.331-8.228,7.106,4.787,7.406-10.1,4.339,4.264L48.6,16" transform="translate(-6.19 -5.57)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100664" data-name="Path 100664" d="M55.9,16.524,59.715,16l.524,3.815" transform="translate(-17.301 -5.57)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100665" data-name="Path 100665" d="M11.7,49.2v6.658" transform="translate(-6.164 -13.935)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100666" data-name="Path 100666" d="M22,42.4V54.144" transform="translate(-8.76 -12.222)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100667" data-name="Path 100667" d="M42.6,36.5V52.658" transform="translate(-13.95 -10.735)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100668" data-name="Path 100668" d="M16.8,45.8V55" transform="translate(-7.449 -13.078)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100669" data-name="Path 100669" d="M27.2,44.5V54.673" transform="translate(-10.07 -12.751)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100670" data-name="Path 100670" d="M32.3,45.3v9.575" transform="translate(-11.355 -12.952)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100671" data-name="Path 100671" d="M37.5,41.7V53.968" transform="translate(-12.665 -12.045)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_100672" data-name="Path 100672" d="M9.5,58.1H35.906" transform="translate(-5.61 -16.177)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <circle id="Ellipse_13980" data-name="Ellipse 13980" cx="6.882" cy="6.882" r="6.882" transform="translate(4.039 8.111)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <g id="Group_89408" data-name="Group 89408" transform="translate(9.051 10.505)">
+            <path id="Path_100673" data-name="Path 100673" d="M18.27,20.94a1.87,1.87,0,1,1,1.87-1.87" transform="translate(-16.4 -16.377)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <path id="Path_100674" data-name="Path 100674" d="M18.27,22.2a1.87,1.87,0,1,1-1.87,1.87" transform="translate(-16.4 -17.637)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <path id="Path_100675" data-name="Path 100675" d="M18.9,16.848V16.1" transform="translate(-17.03 -16.1)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <path id="Path_100676" data-name="Path 100676" d="M18.9,27.2v.748" transform="translate(-17.03 -18.897)" fill="none" stroke="#fedd49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

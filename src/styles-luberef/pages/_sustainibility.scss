@@ -1,0 +1,102 @@
+.main-sustainability {
+  .two-column__img {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .two-column__title,
+  .two-column__desc {
+    @include mdq(xs-md) {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+
+  .our-products__slider {
+    padding: 0 0 132px;
+    margin-top: -800px;
+    background-color: transparent;
+    @include mdq(xs-md) {
+      padding: 60px 0;
+      margin-top: 0;
+
+      .our-leadership__head {
+        padding: 0 0 60px;
+      }
+
+      .head__text--white,
+      .head__title--white {
+        &,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        span,
+        a {
+          color: $color-dark-blue-2;
+        }
+      }
+    }
+    @include mdq(lg) {
+      padding: 0 0 60px;
+    }
+
+    @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+      &--v2 {
+        .swiper-slide {
+          height: 530px;
+        }
+
+        .our-products__slider-box,
+        .our-products__slider-box-img {
+          height: 100%;
+        }
+      }
+    }
+    @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+      &--v2 {
+        .swiper-slide {
+          height: 530px;
+        }
+
+        .our-products__slider-box,
+        .our-products__slider-box-img {
+          height: 100%;
+        }
+      }
+    }
+    @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+      &--v2 {
+        .swiper-slide {
+          height: 530px;
+        }
+
+        .our-products__slider-box,
+        .our-products__slider-box-img {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .two-column__absolute-img,
+  .two-column__absolute-img-reverse {
+    width: 46.6%;
+    @include mdq(xs-md) {
+      width: auto;
+    }
+  }
+}
+#responsibleBusiness .our-leadership__modal--xl {
+  transform: translateY(-50%) !important;
+  top: 50%;
+}
+
+// .box-truncate {
+//   white-space: nowrap;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+// }

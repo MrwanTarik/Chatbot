@@ -1,0 +1,304 @@
+.fact-figures {
+  $root: fact-figures;
+
+  &__wrapper {
+    display: flex;
+    flex-flow: column;
+    padding-right: 20px;
+    padding-left: 55px;
+    [dir='ltr'] & {
+      // padding-top: 200px;
+      @include mdq(lg) {
+        // padding-top: 144px;
+      }
+    }
+
+    [dir='rtl'] & {
+      // padding-top: 120px;
+      @include mdq(lg) {
+        // padding-top: 99px;
+      }
+    }
+    @include mdq(xs-md) {
+      padding-top: 32px;
+      padding-right: 0;
+      padding-left: 0;
+      [dir='ltr'] & {
+        padding-top: 50px;
+      }
+
+      [dir='rtl'] & {
+        padding-top: 50px;
+      }
+    }
+    @include mdq(lg) {
+      // padding-top: 144px;
+      padding-right: 10px;
+      padding-left: 22px;
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+      // padding-top: 155px;
+    }
+    @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+      // padding-top: 155px;
+    }
+  }
+
+  &__content {
+    position: relative;
+    flex: 1;
+  }
+
+  &__box {
+    @include transition(background-color 0.5s ease);
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46.5px 40px 46.5px 20px;
+    background-color: rgba($color-light-blue, 0.7);
+    border-radius: 10px;
+    cursor: pointer;
+    @include mdq(xs-md) {
+      align-items: flex-start;
+      padding: 30px 15px;
+    }
+    @include mdq(lg) {
+      padding: 23px 40px 31px 20px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+      @include mdq(xs-md) {
+        margin-bottom: 18px;
+      }
+      @include mdq(lg) {
+        margin-bottom: 20px;
+      }
+    }
+
+    &:hover {
+      background-color: rgba($color-dark-blue-2, 0.7);
+      @include mdq(xs-md) {
+        background-color: rgba($color-light-blue, 0.7);
+      }
+
+      .#{$root}__title {
+        opacity: 0;
+        transform: translate(150%, 0);
+        visibility: hidden;
+        @include mdq(xs-md) {
+          opacity: 1;
+          transform: translate(0, 0) !important;
+          visibility: visible;
+        }
+
+        [dir='ltr'] & {
+          transform: translate(150%, 0);
+        }
+
+        [dir='rtl'] & {
+          transform: translate(-150%, 0);
+        }
+      }
+
+      .#{$root}__desc {
+        opacity: 1;
+        transform: translate(0, -50%);
+        visibility: visible;
+        @include mdq(xs-md) {
+          transform: translate(0, 0);
+        }
+      }
+
+      .#{$root}__icon {
+        // transform: translateY(-15px);
+        @include mdq(xs-md) {
+          transform: translateY(0);
+        }
+        @include mdq(lg) {
+          // transform: translateY(-10px);
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      .#{$root}__icon {
+        img {
+          width: 60px;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      .#{$root}__icon {
+        img {
+          width: 70px;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    @include transition(transform 0.5s ease);
+    position: relative;
+    display: flex;
+    width: 80px;
+    height: 60px;
+    flex: 0 0 80px;
+    flex-flow: row;
+    transform: translate(0, 0);
+    @include mdq(xs-md) {
+      width: 43px;
+      height: auto;
+      flex: 0 0 43px;
+      margin-right: 10px;
+    }
+    @include mdq(lg) {
+      width: 50px;
+      margin-right: 10px;
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+      width: 50px;
+      flex: 0 0 50px;
+      margin-right: 15px;
+    }
+    @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+      width: 50px;
+      flex: 0 0 50px;
+      margin-right: 15px;
+    }
+
+    [dir='ltr'] & {
+      margin-right: 19px;
+    }
+
+    [dir='rtl'] & {
+      margin-left: 24px;
+    }
+  }
+
+  &__title {
+    @include transition(opacity 0.5s ease, visibility 0.5s ease, transform 0.5s ease);
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    opacity: 1;
+    transform: translate(0, 0);
+    visibility: visible;
+
+    &,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @include regular;
+      color: $color-default-white;
+      font-size: 32px;
+      line-height: 42px;
+      @include mdq(xs-md) {
+        font-size: 17px;
+        line-height: 27px;
+      }
+      @include mdq(lg) {
+        font-size: 24px;
+        line-height: 34px;
+      }
+      @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+        font-size: 22px;
+        line-height: 32px;
+      }
+      @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+        font-size: 24px;
+        line-height: 30px;
+      }
+      @media only screen and (min-width: 1680px) and (max-width: 1800px) {
+        font-size: 29px;
+        line-height: 39px;
+      }
+    }
+  }
+
+  &__line {
+    display: none;
+    height: 1px;
+    flex: 1;
+    margin-bottom: -15px;
+    margin-left: 50px;
+    background-color: $color-light-yellow;
+    border-radius: 100%;
+  }
+
+  &__desc {
+    @include transition(opacity 0.5s ease, visibility 0.5s ease, transform 0.5s ease);
+    @include flipProperty('padding-right', 'padding-left', 30px);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: -webkit-box;
+    overflow: hidden;
+    max-height: 8rem;
+    opacity: 0;
+    text-overflow: ellipsis;
+    transform: translate(150%, -50%);
+    visibility: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    @include mdq(xs-md) {
+      @include flipProperty('padding-right', 'padding-left', 0);
+      position: relative;
+      top: 0;
+      display: block;
+      max-height: 100%;
+      margin-top: 9px;
+      opacity: 1;
+      transform: translate(0, 0) !important;
+      visibility: visible;
+    }
+    @include mdq(lg) {
+      @include flipProperty('padding-right', 'padding-left', 15px);
+    }
+
+    [dir='ltr'] & {
+      transform: translate(150%, -50%);
+    }
+
+    [dir='rtl'] & {
+      transform: translate(-150%, -50%);
+    }
+
+    &,
+    p {
+      color: $color-light-yellow;
+      font-size: 21px;
+      line-height: 30px;
+      @include mdq(xs-md) {
+        color: $color-default-white;
+        font-size: 14px;
+        line-height: 24px;
+      }
+      @include mdq(lg-xl) {
+        font-size: 16px !important;
+        line-height: 26px !important;
+      }
+
+      @media only screen and (min-width: 1441px) and (max-width: 1679px) {
+        font-size: 16px;
+        line-height: 26px;
+      }
+
+      [dir='ltr'] & {
+        @include verdanaregular;
+      }
+
+      [dir='rtl'] & {
+        @include regularar;
+      }
+    }
+  }
+}

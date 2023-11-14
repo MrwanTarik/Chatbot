@@ -1,0 +1,23 @@
+.main-history {
+  .latest-news__wrapper {
+    @include mdq(xs-md) {
+      padding-right: 0 !important;
+    }
+  }
+
+  .latest-news__card {
+    &-link {
+      a {
+        @include mdq(xs-md) {
+          align-items: flex-start;
+        }
+      }
+
+      &--icon {
+        @include mdq(xs-md) {
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+}

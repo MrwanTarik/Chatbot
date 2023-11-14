@@ -1,0 +1,60 @@
+.indicator {
+  @include transition(opacity 0.5s ease, visibility 0.5s ease);
+  position: fixed;
+  z-index: 300;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 0.1rem rgba(128, 130, 134, 1);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+
+  [dir='ltr'] & {
+    right: 30px;
+  }
+
+  [dir='rtl'] & {
+    left: 30px;
+  }
+
+  &.is-show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__circle {
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+    svg {
+      path {
+        box-sizing: border-box;
+        fill: rgba(255, 255, 255, 0.42);
+        stroke: #fedd49;
+        stroke-width: 4;
+        transition: all 200ms linear;
+      }
+    }
+  }
+
+  &__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    svg {
+      width: 13px;
+      height: 13px;
+      transform: rotate(-92deg);
+
+      path {
+        fill: transparent;
+        stroke: $color-dark-blue-2;
+      }
+    }
+  }
+}

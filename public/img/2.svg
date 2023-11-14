@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_68892" data-name="Rectangle 68892" width="60" height="60" fill="none" stroke="#fedd49" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="_2" data-name="2" transform="translate(0 -0.383)">
+    <g id="Group_88228" data-name="Group 88228" transform="translate(0 0.383)" clip-path="url(#clip-path)">
+      <path id="Path_99356" data-name="Path 99356" d="M30,25H51.314v3.761l-2.507,2.507V52.582" transform="translate(7.612 6.164)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_99357" data-name="Path 99357" d="M37.537,29.314V14.269A7.735,7.735,0,0,0,33.776,8H28.761A7.735,7.735,0,0,0,25,14.269v7.522" transform="translate(6.343 1.85)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_99358" data-name="Path 99358" d="M42.537,28.582V3.507A2.508,2.508,0,0,0,40.03,1H32.507A2.507,2.507,0,0,0,30,3.507V6.015" transform="translate(7.612 0.074)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_99359" data-name="Path 99359" d="M7,24.552V9.507A2.508,2.508,0,0,1,9.507,7H17.03a2.507,2.507,0,0,1,2.507,2.507v2.507" transform="translate(1.776 1.597)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_98" data-name="Line 98" x2="3.761" transform="translate(46.388 14.865)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_99" data-name="Line 99" x2="5.015" transform="translate(35.105 6.089)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_99360" data-name="Path 99360" d="M12.284,35.015H1V30H22.314" transform="translate(0.254 7.433)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_99361" data-name="Path 99361" d="M26,35.015h8.776V30H28.507" transform="translate(6.597 7.433)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_100" data-name="Line 100" x1="12.537" transform="translate(15.045 14.865)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_99362" data-name="Path 99362" d="M39.413,34a18.808,18.808,0,0,1-37.28.008" transform="translate(0.541 8.447)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_99363" data-name="Path 99363" d="M2.133,34.564A18.626,18.626,0,0,1,14.5,19.522V15.761h2.507V12h7.522v3.761h2.507v3.761A18.615,18.615,0,0,1,39.412,34.569" transform="translate(0.541 2.865)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_101" data-name="Line 101" x2="3.761" transform="translate(46.388 21.134)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_102" data-name="Line 102" y2="8.776" transform="translate(55.164 21.134)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_103" data-name="Line 103" x1="11.284" transform="translate(45.135 37.433)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_104" data-name="Line 104" x2="60.179" transform="translate(0 58.746)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_105" data-name="Line 105" x1="2.507" transform="translate(22.567 18.627)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_106" data-name="Line 106" x1="2.507" transform="translate(17.552 18.627)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_107" data-name="Line 107" y2="3.761" transform="translate(45.135 49.97)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_108" data-name="Line 108" y2="3.761" transform="translate(50.15 49.97)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

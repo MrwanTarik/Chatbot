@@ -1,0 +1,27 @@
+.main-about {
+  .our-products {
+    &__slider {
+      .our-leadership__head {
+        @include mdq(xs-md) {
+          padding: 60px 0 15px;
+        }
+      }
+    }
+  }
+
+  .home-about__wrapper--v3 {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+.latest-news {
+  &__wrapper {
+    @include mdq(xs-md) {
+      .container {
+        padding-right: 24px !important;
+      }
+    }
+  }
+}

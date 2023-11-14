@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.232" height="50" viewBox="0 0 80.232 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_68891" data-name="Rectangle 68891" width="80.233" height="50" fill="none" stroke="#fedd49" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="Group_88755" data-name="Group 88755" transform="translate(0 -0.25)">
+    <g id="Group_88224" data-name="Group 88224" transform="translate(0 0.25)" clip-path="url(#clip-path)">
+      <path id="Path_99353" data-name="Path 99353" d="M43.075,12.345,43,45.761H59.3V15.774C59.3,13.881,52.083,12.345,43.075,12.345Z" transform="translate(10.906 2.986)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_99354" data-name="Path 99354" d="M52.131,47.994V10.405a2.906,2.906,0,0,0-1.557-2.718c-5.462-2.56-13.038-4.148-21.466-4.148a54.2,54.2,0,0,0-20.3,3.59A3.017,3.017,0,0,0,7,9.9v38.1Z" transform="translate(1.775 0.752)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_99355" data-name="Path 99355" d="M22.522,12.536H15M26.283,0V43.877M15,43.877V0m7.522,33.848H15m7.522-11.283H15" transform="translate(3.805 -0.145)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_89" data-name="Line 89" x2="2.326" transform="translate(77.907 48.837)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_90" data-name="Line 90" x2="2.326" transform="translate(0 48.837)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_91" data-name="Line 91" x1="69.767" transform="translate(5.233 48.837)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_92" data-name="Line 92" y2="27.907" transform="translate(48.837 12.209)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_93" data-name="Line 93" y2="2.326" transform="translate(48.837 42.442)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_94" data-name="Line 94" y2="19.186" transform="translate(65.116 20.93)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_95" data-name="Line 95" y2="2.326" transform="translate(65.116 42.442)" fill="none" stroke="#fedd49" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

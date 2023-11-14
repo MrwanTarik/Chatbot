@@ -1,0 +1,10 @@
+.content {
+  &__parallax {
+    position: relative;
+    overflow: hidden;
+    padding: 137px 0;
+    @include mdq(xs-md) {
+      padding: 56px 0 48px;
+    }
+  }
+}
