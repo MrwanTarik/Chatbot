@@ -5,7 +5,6 @@ import type { Metadata } from 'next';
 
 import Footer from '@/components/footer';
 import Header from '@/components/header';
-import { ApolloWrapper } from '@/lib/apollo-wrapper';
 
 import { languages } from '../i18n/settings';
 
@@ -51,11 +50,9 @@ export default function RootLayout({
   return (
     <html lang={lng} dir={dir(lng)}>
       <body>
-        <ApolloWrapper>
-          <Header lang={lng} />
-          {children}
-          <Footer lang={lng} />
-        </ApolloWrapper>
+        <Header lang={lng} />
+        {children}
+        <Footer lang={lng} />
       </body>
     </html>
   );

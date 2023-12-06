@@ -98,23 +98,43 @@
 }
 
 .fadeInUpBottomToTop {
-  @include animation('0s', '0.8s', 'fadeInUpBottomToTop', 1, 'linear', inherit, both);
+  @include animation(
+    '0s',
+    '0.8s',
+    'fadeInUpBottomToTop',
+    1,
+    'linear',
+    inherit,
+    both
+  );
 }
 
 .fadeInUpTopToBottom {
-  @include animation('0s', '0.8s', 'fadeInUpTopToBottom', 1, 'linear', inherit, both);
+  @include animation(
+    '0s',
+    '0.8s',
+    'fadeInUpTopToBottom',
+    1,
+    'linear',
+    inherit,
+    both
+  );
 }
 
 .fadeInUp-scroll,
 .fadeInUp-scroll-v2 {
   &.visible {
-    transition: transform 0.8s, opacity 0.8s;
+    transition:
+      transform 0.8s,
+      opacity 0.8s;
   }
 }
 
 .fadeInUp-scroll-v3 {
   &.visible {
-    transition: transform 1.8s, opacity 1.8s;
+    transition:
+      transform 1.8s,
+      opacity 1.8s;
     transition-delay: 0.8;
   }
 }
@@ -219,7 +239,9 @@
   span {
     opacity: 0;
     visibility: hidden;
-    transition: 300ms opacity, 300ms visibility;
+    transition:
+      300ms opacity,
+      300ms visibility;
 
     &.show {
       opacity: 1;
@@ -410,5 +432,92 @@
   }
   100% {
     width: 100%;
+  }
+}
+.fade-in {
+  animation: fadeInAnimation 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slideInAnimation 0.5s ease-in-out forwards;
+}
+@keyframes slideInAnimation {
+  from {
+    transform: translateY(-45%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Base fade-in animation styles */
+.fadeIn {
+  opacity: 0;
+  transition:
+    opacity 1s ease-in-out,
+    transform 0.7s ease-in-out,
+    filter 0.3s ease-in-out;
+}
+
+/* State when the element is in view */
+.fadeInInView {
+  opacity: 1;
+  filter: blur(0);
+}
+
+/* Specific direction animations */
+.fadeInTop {
+  transform: translateY(-30%);
+}
+
+.fadeInBottom {
+  transform: translateY(20%);
+}
+
+.fadeInLeft {
+  transform: translateX(-10vw);
+}
+
+.fadeInRight {
+  transform: translateX(10vw);
+}
+
+/* Default direction if none is specified */
+.fadeInDefault {
+  transform: translateY(-100%);
+}
+/* Define classes for each direction with media queries */
+
+.fade-in-top,
+.fade-in-bottom,
+.fade-in-left,
+.fade-in-right {
+  transition:
+    opacity 1s ease-in-out,
+    transform 0.7s ease-in-out,
+    filter 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .fade-in-top {
+    transform: translateY(-60%);
+  }
+  .fade-in-bottom {
+    transform: translateY(20%);
+  }
+  .fade-in-left {
+    transform: translateX(-10vw);
+  }
+  .fade-in-right {
+    transform: translateX(10vw);
   }
 }
