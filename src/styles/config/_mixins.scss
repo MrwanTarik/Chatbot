@@ -153,5 +153,5 @@
   }
 }
 @mixin propInVW($property, $px) {
-  #{$property}: $px / 1440 * 100 + vw;  
+  #{$property}: $px / 1920 * 100 + vw;  
 }

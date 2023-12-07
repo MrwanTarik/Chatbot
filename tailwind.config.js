@@ -15,7 +15,11 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      backgroundImage: {
+        'auth-bg': "url('/img/auth-bg.png')",
+      },
       colors: {
+        purple: '#7C32C9',
         gray: {
           100: '#f7fafc',
           200: '#edf2f7',

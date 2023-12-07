@@ -76,7 +76,7 @@ const FadeIn: React.FC<Props> = ({
             right: 'translateX(10vw)', // Use viewport width units
           }[direction] || 'translateY(-100%)',
         transition:
-          'opacity 1s ease-in-out, transform 0.7s ease-in-out, filter .3s ease-in-out',
+          'opacity .3s ease-in-out, transform 0.3s ease-in-out, filter .3s ease-in-out',
 
         ...style,
       }}

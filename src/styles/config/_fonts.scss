@@ -1,30 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
 
-.zeyn-medium {
-  font-family: '29LT Zeyn', sans-serif;
+.tajawal-medium {
+  font-family: 'Tajawal', sans-serif;
   font-weight: 500;
 }
-.zeyn-regular {
-  font-family: '29LT Zeyn', sans-serif;
-  font-weight: normal;
-}
-.amiri-light {
-  font-family: 'Amiri', serif;
-  font-weight: 300;
-}
-.amiri-regular {
-  font-family: 'Amiri', serif;
+.tajawal-regular {
+  font-family: 'Tajawal', sans-serif;
   font-weight: 400;
 }
-.amiri-medium {
-  font-family: 'Amiri', serif;
+.tajawal-bold {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'DiodrumArabic';
+  src: url('/fonts/DiodrumArabic-Bold.eot');
+  src: url('/fonts/DiodrumArabic-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/DiodrumArabic-Bold.woff2') format('woff2'),
+      url('/fonts/DiodrumArabic-Bold.woff') format('woff'),
+      url('/fonts/DiodrumArabic-Bold.ttf') format('truetype'),
+      url('/fonts/DiodrumArabic-Bold.svg#DiodrumArabic-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DiodrumArabic';
+  src: url('/fonts/DiodrumArabic-Regular.eot');
+  src: url('/fonts/DiodrumArabic-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/DiodrumArabic-Regular.woff2') format('woff2'),
+      url('/fonts/DiodrumArabic-Regular.woff') format('woff'),
+      url('/fonts/DiodrumArabic-Regular.ttf') format('truetype'),
+      url('/fonts/DiodrumArabic-Regular.svg#DiodrumArabic-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DiodrumArabic';
+  src: url('/fonts/DiodrumArabic-Medium.eot');
+  src: url('/fonts/DiodrumArabic-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/fontsDiodrumArabic-Medium.woff2') format('woff2'),
+      url('/fontsDiodrumArabic-Medium.woff') format('woff'),
+      url('/fontsDiodrumArabic-Medium.ttf') format('truetype'),
+      url('/fontsDiodrumArabic-Medium.svg#DiodrumArabic-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DiodrumArabic';
+  src: url('/fonts/DiodrumArabic-Semibold.eot');
+  src: url('/fonts/DiodrumArabic-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/DiodrumArabic-Semibold.woff2') format('woff2'),
+      url('/fonts/DiodrumArabic-Semibold.woff') format('woff'),
+      url('/fonts/DiodrumArabic-Semibold.ttf') format('truetype'),
+      url('/fonts/DiodrumArabic-Semibold.svg#DiodrumArabic-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+.diodrum-regular {
+  font-family: 'DiodrumArabic';
+  font-weight: 400;
+}
+.diodrum-bold {
+  font-family: 'DiodrumArabic';
+  font-weight: 700;
+}
+.diodrum-medium {
+  font-family: 'DiodrumArabic';
   font-weight: 500;
 }
-.amiri-semibold {
-  font-family: 'Amiri', serif;
+.diodrum-semibold {
+  font-family: 'DiodrumArabic';
   font-weight: 600;
-}
-.amiri-bold {
-  font-family: 'Amiri', serif;
-  font-weight: 700;
 }
