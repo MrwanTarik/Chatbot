@@ -1,7 +1,8 @@
 'use client';
 
+import { nanoid } from 'nanoid';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 import { useTranslation } from '@/app/i18n/client';
 
@@ -10,7 +11,16 @@ import FadeIn from './fadescroll';
 export default function SignInSection({ lng }: { lng: string }) {
   const { t } = useTranslation(lng);
   // Assuming a 6-digit code
+  const firstInputRef = useRef<HTMLInputElement>(null);
   const [code, setCode] = useState(new Array(6).fill(''));
+
+  useEffect(() => {
+    // Focusing the first input element when the component mounts
+    if (firstInputRef.current) {
+      firstInputRef.current.focus();
+    }
+  }, []);
+
   const handleChange = (element: HTMLInputElement, index: number) => {
     const newCode = [...code];
     newCode[index] = element.value;
@@ -47,11 +57,8 @@ export default function SignInSection({ lng }: { lng: string }) {
   return (
     <main>
       <div className=" h-screen bg-auth-bg bg-cover bg-no-repeat flex md:flex-row flex-col flex-nowrap ">
-        <div className="h-full w-full md:w-[50%] ">
-          <Link
-            className="h-full w-full flex justify-center items-center"
-            href="/"
-          >
+        <div className="h-full w-full md:w-[50%] flex items-center justify-center">
+          <Link href="/">
             <img
               src="/img/logo.png"
               className="w-[120px] lg:w-[10.417vw] object-cover"
@@ -63,12 +70,12 @@ export default function SignInSection({ lng }: { lng: string }) {
           <div className="w-full px-[15px] lg:px-0 lg:w-[29.688vw] h-auto">
             <FadeIn direction="bottom">
               <img
-                className="w-[50px] lg:w-[4.688vw] pt-5 sm:pt-0 m-auto "
+                className="w-[50px] lg:w-[4.688vw] pt-7 sm:pt-0 m-auto "
                 src="/img/security-icon.png"
                 alt="securityIcon"
               />
             </FadeIn>
-            <FadeIn direction="bottom">
+            <FadeIn direction="top">
               <h1 className="diodrum-semibold text-purple pt-[15px] md:pt-[0] mb-4 lg:mb-[1.042vw] text-center font-size-40">
                 {t('verifyYourAccount')}
               </h1>
@@ -84,10 +91,11 @@ export default function SignInSection({ lng }: { lng: string }) {
                   {code.map((digit, index) => (
                     <input
                       dir="ltr"
-                      key={digit}
-                      className="w-[50px] digit-input focus:outline-none caret-purple  h-[50px] lg:w-[4.167vw] lg:h-[4.167vw] py-[14px] lg:py-[0.938vw] px-[17px] lg:px-[1.094vw] tajawal-medium text-[#1E1B3F] rounded-md bg-[#E2E6EF] font-size-35 text-center flex justify-center items-center"
+                      key={nanoid()}
+                      className="w-[47px] digit-input focus:outline-none caret-purple  h-[50px] lg:w-[4.167vw] lg:h-[4.167vw] tajawal-medium text-[#1E1B3F] rounded-md bg-[#E2E6EF] font-size-35 text-center flex justify-center items-center"
                       type="text"
                       maxLength={1}
+                      ref={index === 0 ? firstInputRef : null}
                       value={digit}
                       onChange={(e) => handleChange(e.target, index)}
                       onFocus={(e) => e.target.select()}

@@ -11,11 +11,8 @@ export default function SignUpSection({ lng }: { lng: string }) {
   const { t } = useTranslation(lng);
   return (
     <div className=" h-screen bg-auth-bg bg-cover bg-no-repeat flex md:flex-row flex-col flex-nowrap ">
-      <div className="h-full w-full md:w-[50%] ">
-        <Link
-          className="h-full w-full flex justify-center items-center"
-          href="/"
-        >
+      <div className="h-full w-full md:w-[50%] flex justify-center items-center ">
+        <Link href="/">
           <img
             src="/img/logo.png"
             className="w-[120px] lg:w-[10.417vw] object-cover"
@@ -27,12 +24,12 @@ export default function SignUpSection({ lng }: { lng: string }) {
         <div className="w-full px-[15px] lg:px-0 lg:w-[29.688vw] h-auto">
           <FadeIn direction="bottom">
             <h1 className="diodrum-semibold text-purple pt-[15px] md:pt-[0] mb-4 lg:mb-[1.042vw] text-center font-size-40">
-              {t('signInTitle')}
+              {t('SignUpTitle')}
             </h1>
           </FadeIn>
           <FadeIn direction="top">
             <p className="font-size-22 tajawal-medium text-[#1E1B3F] mb-6 lg:mb-[2.083vw] text-center">
-              {t('signInContent')}
+              {t('SignUpContent')}
             </p>
           </FadeIn>
           <form action="">

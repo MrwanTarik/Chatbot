@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import React from 'react';
 
+import { LanguageSwitcherClient } from '@/app/[lng]/languageSwitcher/client';
 import { useTranslation } from '@/app/i18n/client';
 
 import FadeIn from './fadescroll';
@@ -11,11 +12,11 @@ export default function SignInSection({ lng }: { lng: string }) {
   const { t } = useTranslation(lng);
   return (
     <div className=" h-screen bg-auth-bg bg-cover bg-no-repeat flex md:flex-row flex-col flex-nowrap ">
-      <div className="h-full w-full md:w-[50%] ">
-        <Link
-          className="h-full w-full flex justify-center items-center"
-          href="/"
-        >
+      <div className="absolute top-[20px] rtl:left-[20px] ltr:right-[20px] text-white md:text-black">
+        <LanguageSwitcherClient lng={lng} />
+      </div>
+      <div className="h-full w-full md:w-[50%] flex justify-center items-center ">
+        <Link href="/">
           <img
             src="/img/logo.png"
             className="w-[120px] lg:w-[10.417vw] object-cover"
@@ -95,7 +96,7 @@ export default function SignInSection({ lng }: { lng: string }) {
                 <div className="flex">
                   <Link
                     className="w-full tajawal-medium font-size-18 text-[#332F66]"
-                    href="/forgot-password"
+                    href="/sign-in/forget-password"
                   >
                     {t('forgotPassword')}
                   </Link>

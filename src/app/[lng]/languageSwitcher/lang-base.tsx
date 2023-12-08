@@ -36,7 +36,10 @@ export const LangBase = ({ t, lng }: { t: any; lng: string }) => {
           return (
             <span key={l}>
               {index > 0 && ' or '}
-              <Link href={localizedPath}>
+              <Link
+                className="font-size-30 tajawal-medium"
+                href={localizedPath}
+              >
                 {l === 'ar' ? 'عربي' : 'English'}
               </Link>
             </span>

@@ -27,5 +27,15 @@
   "didntGetCode": "لم تستلم الكود؟",
   "resedCode": "اعادة ارسال الكود",
   "signUpDone": "تهانينا! تم انشاء حسابك بنجاح!",
-  "useOurServices": "يمكنك استخدام خدماتنا بسهولة عن طريق تسجيل دخولك"
+  "useOurServices": "يمكنك استخدام خدماتنا بسهولة عن طريق تسجيل دخولك",
+  "resetPassword": "استعادة كلمه المرور",
+  "enterRequiredData": "قم بادخال البيانات المطلوبة",
+  "rememberedPassword": "تذكرت كلمة المرور؟",
+  "changePassword": "تغيير كلمة المرور",
+  "EnterNewPassword": "قم بادخال كلمة المرور الجديدة",
+  "newPasswordInputPlaceholder": "كلمة المرور الجديدة",
+  "confirmNewPasswordInputPlaceholder": "تأكيد كلمة المرور الجديدة",
+  "changePass": "تغيير كلمة المرور",
+  "passChanged": "تم تغيير كلمة المرور بنجاح",
+  "passChangedContent": "يمكنك الان استخدام خدماتنا بكل سهولة"
 }
