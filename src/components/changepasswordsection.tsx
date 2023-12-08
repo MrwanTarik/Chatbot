@@ -11,7 +11,7 @@ export default function ChangePasswordSection({ lng }: { lng: string }) {
   const { t } = useTranslation(lng);
   return (
     <div className="bg-auth-bg bg-cover bg-no-repeat h-screen py-20 lg:py-[5.521vw] flex justify-center items-center px-4">
-      <div className="w-full lg:w-[38.125vw] relative bg-white px-[25px] lg:px-[2.969vw] py-[30px] lg:py-[3.229vw] flex items-center justify-start h-full rounded-[15px]">
+      <div className="w-full lg:w-[38.125vw] relative bg-white px-[25px] lg:px-[2.969vw] py-[30px] lg:py-[3.229vw] flex items-center justify-start h-full ">
         <Link
           className="absolute rtl:right-[25px] rtl:lg:right-[2.969vw] ltr:left-[25px] ltr:lg:left-[2.969vw] top-[30px] lg:top-[2.5vw] w-[25px] lg:w-[2.083vw]"
           href="/sign-in/forget-password/"

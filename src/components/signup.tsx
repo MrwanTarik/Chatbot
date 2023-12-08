@@ -20,7 +20,7 @@ export default function SignUpSection({ lng }: { lng: string }) {
           />
         </Link>
       </div>
-      <div className="h-full md:w-[50%] bg-white rounded-[15px] flex flex-col justify-center items-center">
+      <div className="h-full md:w-[50%] bg-white rounded-t-[15px] flex flex-col justify-center items-center">
         <div className="w-full px-[15px] lg:px-0 lg:w-[29.688vw] h-auto">
           <FadeIn direction="bottom">
             <h1 className="diodrum-semibold text-purple pt-[15px] md:pt-[0] mb-4 lg:mb-[1.042vw] text-center font-size-40">
