@@ -118,7 +118,7 @@ export default function SignInSection({ lng }: { lng: string }) {
                   {t('dontHaveAccount')}
                 </p>
                 <Link
-                  href="/sign-up"
+                  href={`${lng === 'en' ? '/en' : '/ar'}/sign-up`}
                   className="text-[#1E1B3F] tajawal-bold ps-[2px] font-size-20 "
                 >
                   {t('createAccount')}

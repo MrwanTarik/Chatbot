@@ -9,6 +9,7 @@ type IMainProps = {
 const Main = (props: IMainProps) => (
   <>
     {props.meta}
+
     <main className={`${props.className}`}>{props.children}</main>
   </>
 );
