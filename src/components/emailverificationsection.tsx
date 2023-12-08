@@ -7,7 +7,7 @@ import { useTranslation } from '@/app/i18n/client';
 
 import FadeIn from './fadescroll';
 
-export default function SignInSection({ lng }: { lng: string }) {
+export default function EmailVerificationSection({ lng }: { lng: string }) {
   const { t } = useTranslation(lng);
   // Assuming a 6-digit code
   const firstInputRef = useRef<HTMLInputElement>(null);

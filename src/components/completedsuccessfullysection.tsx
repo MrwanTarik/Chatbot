@@ -7,7 +7,7 @@ import { useTranslation } from '@/app/i18n/client';
 
 import FadeIn from './fadescroll';
 
-export default function CompletedSuccessfully({ lng }: { lng: string }) {
+export default function CompletedSuccessfullySection({ lng }: { lng: string }) {
   const { t } = useTranslation(lng);
 
   return (

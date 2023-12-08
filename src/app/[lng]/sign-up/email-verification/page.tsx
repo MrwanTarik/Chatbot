@@ -1,10 +1,10 @@
-import EmailVerification from '@/components/emailverification';
+import EmailVerificationSection from '@/components/emailverificationsection';
 
 // import { useTranslation } from '../../i18n/client';
 
 export const dynamic = 'force-dynamic';
 
-export default function SignIn({
+export default function EmailVerification({
   params: { lng },
 }: {
   params: { lng: string };
@@ -13,7 +13,7 @@ export default function SignIn({
 
   return (
     <main>
-      <EmailVerification lng={lng} />
+      <EmailVerificationSection lng={lng} />
     </main>
   );
 }

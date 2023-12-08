@@ -1,15 +1,15 @@
-import CompletedSuccessfully from '@/components/completedsuccessfully';
+import CompletedSuccessfullySection from '@/components/completedsuccessfullysection';
 
 export const dynamic = 'force-dynamic';
 
-export default function SignIn({
+export default function CompletedSuccessfully({
   params: { lng },
 }: {
   params: { lng: string };
 }) {
   return (
     <main>
-      <CompletedSuccessfully lng={lng} />;
+      <CompletedSuccessfullySection lng={lng} />
     </main>
   );
 }
