@@ -4,7 +4,7 @@ import SignUpSection from '@/components/signup';
 
 export const dynamic = 'force-dynamic';
 
-export default function SignIn({
+export default function SignUp({
   params: { lng },
 }: {
   params: { lng: string };

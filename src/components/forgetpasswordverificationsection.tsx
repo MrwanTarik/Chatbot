@@ -1,6 +1,5 @@
 'use client';
 
-import { nanoid } from 'nanoid';
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react';
 
@@ -91,7 +90,8 @@ export default function ForgetPasswordSection({ lng }: { lng: string }) {
                 {code.map((digit, index) => (
                   <input
                     dir="ltr"
-                    key={nanoid()}
+                    // eslint-disable-next-line react/no-array-index-key
+                    key={index}
                     className="w-[42px] digit-input focus:outline-none caret-purple  h-[50px] lg:w-[4.167vw] lg:h-[4.167vw]  tajawal-medium text-[#1E1B3F] rounded-md bg-[#E2E6EF] font-size-35 text-center flex justify-center items-center"
                     type="text"
                     ref={index === 0 ? firstInputRef : null}
