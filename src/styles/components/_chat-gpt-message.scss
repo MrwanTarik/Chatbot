@@ -1,0 +1,43 @@
+.chat-holder {
+  border-radius: 10px 50px 10px 10px;
+padding: 26px;
+}
+.chat-holder h1 {
+  font-size: 18px;
+  color: #29B3B4;
+  font-family: 'DiodrumArabic';
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.chat-holder h2 {
+  color: #1E1B3F;
+  font-family: 'Tajawal', sans-serif;
+font-size: 17px;
+font-weight: 800;
+line-height: 32px;
+margin-top: 10px;
+}
+
+.chat-holder p {
+  font-size: 17px;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 5px;
+  color: #1E1B3F;
+}
+.chat-holder ul:dir(rtl),
+.chat-holder ol:dir(rtl) {
+  padding-right: 15px;
+}
+.chat-holder ul:dir(ltr),
+.chat-holder ol:dir(ltr) {
+  padding-left: 15px;
+}
+.chat-holder ul li , .chat-holder ol li  {
+  font-size: 17px;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  color: #1E1B3F;
+}

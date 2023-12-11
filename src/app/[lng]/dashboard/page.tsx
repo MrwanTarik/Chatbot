@@ -1,4 +1,4 @@
-import SignInSection from '@/components/signin';
+import DashboardHomeSection from '@/components/dashboardhomeSection';
 import { LayoutWithSidebar } from '@/templates/layoutwithsidebar';
 
 // import { useTranslation } from '../../i18n/client';
@@ -13,8 +13,8 @@ export default function Dashboard({
   // const { t } = useTranslation(lng, 'language-switcher');
 
   return (
-    <LayoutWithSidebar>
-      <SignInSection lng={lng} />
+    <LayoutWithSidebar lng={lng}>
+      <DashboardHomeSection lng={lng} />
     </LayoutWithSidebar>
   );
 }

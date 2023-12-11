@@ -19,7 +19,7 @@ export default function SignInSection({ lng }: { lng: string }) {
         <Link href="/">
           <img
             src="/img/logo.png"
-            className="w-[120px] lg:w-[10.417vw] object-cover"
+            className="w-[100px] lg:w-[10.417vw] object-cover"
             alt="ChatbotLogo"
           />
         </Link>
@@ -104,7 +104,7 @@ export default function SignInSection({ lng }: { lng: string }) {
               </div>
               <Link
                 className="w-full text-white flex items-center tajawal-bold justify-center py-[12px] lg:py-[0.833vw] bg-[#7C32C9] rounded-[10px] mb-[15px] lg:mb-[1.042vw] "
-                href="/"
+                href="/dashboard"
               >
                 <p className="pe-[8px] lg:pe-[0.781vw]">{t('signIn')}</p>
                 <img

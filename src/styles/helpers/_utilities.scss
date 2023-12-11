@@ -345,6 +345,19 @@ body {
     @include propInVW(line-height, 30);
   }
 }
+.font-size-19 {
+  font-size: 19px;
+  line-height: 30px;
+
+  @include mdq(all-mobile) {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  @include mdq(all-desktop) {
+    @include propInVW(font-size, 19);
+    @include propInVW(line-height, 30);
+  }
+}
 .font-size-18 {
   font-size: 18px;
   line-height: 30px;
@@ -354,6 +367,18 @@ body {
   }
   @include mdq(all-desktop) {
     @include propInVW(font-size, 18);
+    @include propInVW(line-height, 30);
+  }
+}
+.font-size-17 {
+  font-size: 17px;
+  line-height: 30px;
+  @include mdq(all-mobile) {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  @include mdq(all-desktop) {
+    @include propInVW(font-size, 17);
     @include propInVW(line-height, 30);
   }
 }

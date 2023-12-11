@@ -15,7 +15,7 @@
   "SignUpTitle": "Welcome!",
   "SignUpContent": "Enter the required data to create a new account",
   "phoneInputPlaceholder": "Phone",
-  "signOnPage": "By registering on such a site, you agree to",
+  "signOnPage": "By registering on such a site, you agree to ",
   "usuageConditions": "Terms of Use",
   "privacyOfUse": "Privacy Policy",
   "createNewAccount": "Create a new account",
@@ -37,5 +37,18 @@
   "confirmNewPasswordInputPlaceholder": "Confirm new password",
   "changePass": "Change password",
   "passChanged": "Password successfully changed",
-  "passChangedContent": "You can now easily use our services"
+  "passChangedContent": "You can now easily use our services",
+  "and": " and ",
+  "day": "today",
+  "you": "you",
+  "userMessage": "How to renew a driver's license",
+  "writeExplanation": "Write your inquiry here...",
+  "chatbot": "Chatbot",
+  "main": "Main",
+  "tickets": "Tickets",
+  "settings": "Settings",
+  "popularQuestions": "الاسئلة الشائعة",
+  "nightMode": "Night Mode",
+  "username": "Mohamed Ahmed",
+  "signout": "Sign Out"
 }

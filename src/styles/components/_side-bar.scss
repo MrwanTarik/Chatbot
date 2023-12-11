@@ -1,0 +1,27 @@
+.side-link:hover path {
+  fill: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.side-link:hover p {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.side-link path {
+  transition: all 0.2s ease-in-out;
+}
+.side-link p {
+  transition: all 0.2s ease-in-out;
+}
+.active-sidebar path {
+  fill: #29B3B4 !important;
+}
+.active-sidebar p {
+  color: #29B3B4 !important;
+}
+.toggle-active:dir{
+
+}
+@media (max-width: 1023px) {
+  
+}

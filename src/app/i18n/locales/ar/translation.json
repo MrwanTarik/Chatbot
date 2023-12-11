@@ -15,7 +15,7 @@
   "SignUpTitle": "مرحباً بك!",
   "SignUpContent": "قم بادخال البيانات المطلوبة لانشاء حساب جديد",
   "phoneInputPlaceholder": "الهاتف",
-  "signOnPage": "بتسجيلك على موقع كذا فانت توافق على ",
+  "signOnPage": " بتسجيلك على موقع كذا فانت توافق على ",
   "usuageConditions": "شروط الاستخدام",
   "privacyOfUse": "سياسة الخصوصية",
   "createNewAccount": "انشاء حساب جديد",
@@ -37,5 +37,18 @@
   "confirmNewPasswordInputPlaceholder": "تأكيد كلمة المرور الجديدة",
   "changePass": "تغيير كلمة المرور",
   "passChanged": "تم تغيير كلمة المرور بنجاح",
-  "passChangedContent": "يمكنك الان استخدام خدماتنا بكل سهولة"
+  "passChangedContent": "يمكنك الان استخدام خدماتنا بكل سهولة",
+  "and": " و ",
+  "day": "اليوم",
+  "you": "أنت",
+  "userMessage": "كيفية تجديد رخصة القيادة",
+  "writeExplanation": "اكتب استفسارك هنا...",
+  "chatbot": "شات بوت",
+  "main": "الرئيسية",
+  "tickets": "التذاكر",
+  "settings": "الاعدادات",
+  "popularQuestions": "الاسئلة الشائعة",
+  "nightMode": "الوضع الليلي",
+  "username": "محمد احمد",
+  "signout": "تسجيل الخروج"
 }

@@ -16,7 +16,7 @@ export default function CompletedSuccessfullySection({ lng }: { lng: string }) {
         <Link className="" href="/">
           <img
             src="/img/logo.png"
-            className="w-[120px] lg:w-[10.417vw] object-cover"
+            className="w-[100px] lg:w-[10.417vw] object-cover"
             alt="ChatbotLogo"
           />
         </Link>

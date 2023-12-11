@@ -15,7 +15,7 @@ export default function SignUpSection({ lng }: { lng: string }) {
         <Link href="/">
           <img
             src="/img/logo.png"
-            className="w-[120px] lg:w-[10.417vw] object-cover"
+            className="w-[100px] lg:w-[10.417vw] object-cover"
             alt="ChatbotLogo"
           />
         </Link>
@@ -105,15 +105,18 @@ export default function SignUpSection({ lng }: { lng: string }) {
                   htmlFor="signOnPage"
                 >
                   {t('signOnPage')}
-                  <Link href="/" className="text-[#29B3B4]   tajawal-bold">
-                    شروط الاستخدام{'  '}
+                  <Link
+                    href="/"
+                    className="text-[#29B3B4] font-size-15  tajawal-bold"
+                  >
+                    {t('usuageConditions')}
                   </Link>
-                  {'و '}
+                  {t('and')}
                   <Link
                     href="/"
                     className="text-[#29B3B4] !important tajawal-bold"
                   >
-                    سياسة الخصوصية{'  '}
+                    {t('privacyOfUse')}
                   </Link>
                 </label>
               </div>

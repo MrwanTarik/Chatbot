@@ -60,7 +60,7 @@ export default function EmailVerificationSection({ lng }: { lng: string }) {
           <Link href="/">
             <img
               src="/img/logo.png"
-              className="w-[120px] lg:w-[10.417vw] object-cover"
+              className="w-[100px] lg:w-[10.417vw] object-cover"
               alt="ChatbotLogo"
             />
           </Link>
