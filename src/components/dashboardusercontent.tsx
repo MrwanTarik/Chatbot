@@ -65,7 +65,7 @@ export default function DashboardUserContent({
                   autoFocus
                 />
               ) : (
-                <p className="tajawal-medium font-size-16 text-[#1E1B3F] truncate max-w-[150px] lg:max-w-[12vw]">
+                <p className="tajawal-medium mt-[5px] font-size-16 text-[#1E1B3F] truncate max-w-[150px] lg:max-w-[12vw]">
                   {subject.subjectTitle}
                 </p>
               )}

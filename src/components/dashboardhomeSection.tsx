@@ -28,16 +28,16 @@ export default function DashboardHomeSection({ lng }: { lng: string }) {
       day: t('day'),
       userSubjects: [
         {
-          subjectTitle: 'عنوان موضوع يكتب هنا العنوان هنا',
+          subjectTitle: t('subjectTopic'),
         },
         {
-          subjectTitle: 'عنوان موضوع يكتب هنا العنوان هنا',
+          subjectTitle: t('subjectTopic'),
         },
         {
-          subjectTitle: 'عنوان موضوع يكتب هنا العنوان هنا',
+          subjectTitle: t('subjectTopic'),
         },
         {
-          subjectTitle: 'عنوان موضوع يكتب هنا العنوان هنا',
+          subjectTitle: t('subjectTopic'),
         },
       ],
     },
@@ -45,16 +45,16 @@ export default function DashboardHomeSection({ lng }: { lng: string }) {
       day: '14/08/2023',
       userSubjects: [
         {
-          subjectTitle: 'عنوان موضوع يكتب هنا العنوان هنا',
+          subjectTitle: t('subjectTopic'),
         },
         {
-          subjectTitle: 'عنوان موضوع يكتب هنا العنوان هنا',
+          subjectTitle: t('subjectTopic'),
         },
         {
-          subjectTitle: 'عنوان موضوع يكتب هنا العنوان هنا',
+          subjectTitle: t('subjectTopic'),
         },
         {
-          subjectTitle: 'عنوان موضوع يكتب هنا العنوان هنا',
+          subjectTitle: t('subjectTopic'),
         },
       ],
     },
@@ -111,7 +111,7 @@ export default function DashboardHomeSection({ lng }: { lng: string }) {
           toggle
             ? 'rtl:right-[50px] sm:rtl:right-[65px] ltr:left-[50px] sm:ltr:left-[65px] opacity-100 bg-white'
             : 'rtl:right-[-300px] top-0 ltr:left-[-300px] opacity-0 lg:opacity-100  '
-        } w-[250px] sm:w-[40vw] lg:w-[18.854vw] top-0 h-full absolute p-5 lg:p-0 z-20 lg:z-0 transition-opacity ease-in-out duration-300 flex flex-col lg:static`}
+        } w-[250px] sm:w-[40vw] lg:w-[18.854vw] top-0 h-full absolute p-5 lg:p-0 z-20 lg:z-0 transition-all ease-in-out duration-500 flex flex-col lg:static`}
       >
         <div>
           <div className=" lg:w-[8.958vw] flex justify-between items-center w-full">
@@ -134,7 +134,7 @@ export default function DashboardHomeSection({ lng }: { lng: string }) {
             <img src="/img/write-icon.png" alt="writeIcon" />
             {/* diordrum needed */}
             <h2 className="ps-[12px] text-white font-size-20 inter-bold">
-              موضوع جديد
+              {t('newSubject')}
             </h2>
           </button>
           {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
@@ -142,7 +142,7 @@ export default function DashboardHomeSection({ lng }: { lng: string }) {
             className="text-[#1E1B3F] block tajawal-bold font-size-22 mb-[10px] lg:mb-[13px]"
             htmlFor="topicSearch"
           >
-            قائمة المواضيع
+            {t('searchInSubjects')}{' '}
           </label>
           <div className="relative">
             <input
@@ -176,14 +176,14 @@ export default function DashboardHomeSection({ lng }: { lng: string }) {
         </div>
         <div className="bg-[#E2E6EF]  rounded-lg pt-[25px] lg:pt-[1.667vw] ps-[15px] lg:ps-[1.25vw] pe-[15px] lg:pe-[1.667vw] pb-[21px] lg:pb-[1.094vw]">
           <h2 className="font-size-20 tajawal-bold text-[#332F66] text-center">
-            لازلت في حيرة من امرك؟
+            {t('stillConfused')}{' '}
           </h2>
           <Link
-            className="text-white flex gap-x-[12px] mt-[18px] inter-regular font-size-17 font-bold bg-[#332F66] rounded-lg pt-[13px] lg:pt-[0.885vw] ps-[35px] lg:ps-[2.24vw] pe-[10px] lg:pe-[1.927vw] pb-[14px] pb-[0.885vw]"
+            className="text-white flex justify-center gap-x-[12px] mt-[18px] inter-regular font-size-17 font-bold bg-[#332F66] rounded-lg pt-[13px] lg:pt-[0.885vw] ps-[35px] lg:ps-[2.24vw] pe-[10px] lg:pe-[1.927vw] pb-[14px]"
             href="/"
           >
             <img src="/img/contact-icon.svg" alt="contactIcon" />
-            تواصل مباشر مع مساعد
+            {t('contactSupport')}{' '}
           </Link>
         </div>
       </div>
@@ -193,10 +193,12 @@ export default function DashboardHomeSection({ lng }: { lng: string }) {
           onClick={handleToggle}
           type="button"
           className="flex items-start mb-4  lg:hidden"
+          data-te-ripple-init
+          data-te-ripple-color="light"
         >
           <MdOpenInNew className="text-[black] text-[24px] rtl:rotate-180 ltr:rotate-90" />
         </button>
-        <div className="flex-1 overflow-y-auto ak mb-[30px] lg:mb-[50px]">
+        <div className="flex-1 overflow-y-auto  mb-[30px] lg:mb-[50px]">
           <RequestUserCard />
           <ChatgptMessage />
         </div>

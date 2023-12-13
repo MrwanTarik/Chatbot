@@ -18,6 +18,9 @@ module.exports = {
       backgroundImage: {
         'auth-bg': "url('/img/auth-bg.png')",
       },
+      boxShadow: {
+        custom: '0px 15px 30px 0px rgba(0, 0, 0, 0.15)',
+      },
       colors: {
         purple: '#7C32C9',
         gray: {

@@ -166,7 +166,7 @@ export default function Sidebar({ lng }: { lng: string }) {
           </button>
         </div>
         <div className="flex flex-col  gap-y-[15px] gay-y-[1.563vw]  ">
-          <div className="w-[30px] lg:w-max flex items-center group-hover:gap-x-[15px] relative rtl:left-[5px] ltr:right-[11px]  rtl:lg:left-[11px] ltr:lg:right-[11px]">
+          <div className="w-[30px] lg:w-max flex items-center group-hover:gap-x-[15px] relative rtl:left-[5px] ltr:right-[5px]  rtl:lg:left-[11px] ltr:lg:right-[11px]">
             <img
               className="object-cover"
               src="/img/profile-icon.svg"

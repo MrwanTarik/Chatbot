@@ -48,7 +48,7 @@ export default function SignInSection({ lng }: { lng: string }) {
                 />
                 <span>
                   <img
-                    className="w-[18px]  lg:w-[1.25vw] absolute top-[50%] translate-y-[-50%] rtl:right-[15px] ltr:left-[15px] lg:right-[1.198vw] "
+                    className="w-[18px]  lg:w-[1.25vw] absolute top-[50%] translate-y-[-50%] rtl:right-[15px] ltr:left-[15px] rtl:lg:right-[1.198vw] ltr:lg:left-[1.198vw] "
                     src="/img/email-icon.svg"
                     alt="emailIcon"
                   />

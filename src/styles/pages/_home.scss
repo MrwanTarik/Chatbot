@@ -6,7 +6,7 @@
 }
 
 /* Hide scrollbar by default */
-.ak::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0; /* for Chrome, Safari, and Opera */
   height: 0; /* for horizontal scrollbars */
 }
@@ -16,26 +16,26 @@
   -ms-overflow-style: none;  /* for Internet Explorer and Edge */
 }
 
-// /* Show scrollbar on hover */
-// .ak::-webkit-scrollbar {
-//   width: 12px; /* for Chrome, Safari, and Opera */
-//   height: 12px; /* for horizontal scrollbars */
-// }
+/* Show scrollbar on hover */
+.ak::-webkit-scrollbar {
+  width: 4px; /* for Chrome, Safari, and Opera */ /* for horizontal scrollbars */
+}
 
-// .ak:hover {
-//   scrollbar-width: thin; /* for Firefox */
-//   -ms-overflow-style: auto;  /* for Internet Explorer and Edge */
-// }
 
-// /* You can also style the thumb and track on hover */
-// .ak::-webkit-scrollbar-track {
-//   background-color: #f0f0f0; /* track color */
-//   border-radius: 6px;
-// }
+.ak::-webkit-scrollbar-track {
+  background-color: #c1c1c1; 
+  border-radius: 6px;
+}
 
-// .ak::-webkit-scrollbar-thumb {
-//   background-color: #c0c0c0; /* thumb color */
-//   border-radius: 6px;
-//   border: 2px solid #f0f0f0; /* should match track color */
-// }
+.ak::-webkit-scrollbar-thumb {
+  background-color: #7C32C9;
+  border-radius: 6px;
+}
+@media(max-width:639px) {
+  .ak::-webkit-scrollbar {
+    width: 0; /* for Chrome, Safari, and Opera */
+    height: 0; /* for horizontal scrollbars */
+  }
+}
+
 
