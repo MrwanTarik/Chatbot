@@ -49,8 +49,40 @@ export default function TicketSection({ lng }: { lng: string }) {
               />
             </div>
             <div className="hidden md:block ps-[25px] lg:ps-[3.229vw]">
-              <p className="text-[#29B3B4] tajawal-bold text-[25px] flex items-center gap-x-[13px] lg:gap-x-[18px] lg:text-[35px]">
-                <img src="/img/tickets-icon.svg" alt="ticketsIcon" />{' '}
+              <p className="text-[#29B3B4] tickets-icon tajawal-bold text-[25px] flex items-center gap-x-[13px] lg:gap-x-[18px] lg:text-[35px]">
+                <svg
+                  width="24"
+                  height="26"
+                  viewBox="0 0 24 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="Group 289">
+                    <g id="Group 255">
+                      <path
+                        id="Vector"
+                        d="M6.47197 0.788696H3.74286C1.67574 0.788696 0 2.48619 0 4.58016V7.34472C0 9.43869 1.67574 11.1362 3.74286 11.1362H6.47197C8.5391 11.1362 10.2148 9.43869 10.2148 7.34472V4.58016C10.2148 2.48619 8.5391 0.788696 6.47197 0.788696Z"
+                        fill="#CFC6D8"
+                      />
+                      <path
+                        id="Vector_2"
+                        d="M6.47197 14.9886H3.74286C1.67574 14.9886 0 16.6861 0 18.7801V21.5447C0 23.6386 1.67574 25.3361 3.74286 25.3361H6.47197C8.5391 25.3361 10.2148 23.6386 10.2148 21.5447V18.7801C10.2148 16.6861 8.5391 14.9886 6.47197 14.9886Z"
+                        fill="#CFC6D8"
+                      />
+                      <path
+                        id="Vector_3"
+                        d="M20.2571 0.788696H17.528C15.4609 0.788696 13.7852 2.48619 13.7852 4.58016V7.34472C13.7852 9.43869 15.4609 11.1362 17.528 11.1362H20.2571C22.3243 11.1362 24 9.43869 24 7.34472V4.58016C24 2.48619 22.3243 0.788696 20.2571 0.788696Z"
+                        fill="#CFC6D8"
+                      />
+                      <path
+                        id="Vector_4"
+                        d="M20.2571 14.9886H17.528C15.4609 14.9886 13.7852 16.6861 13.7852 18.7801V21.5447C13.7852 23.6386 15.4609 25.3361 17.528 25.3361H20.2571C22.3243 25.3361 24 23.6386 24 21.5447V18.7801C24 16.6861 22.3243 14.9886 20.2571 14.9886Z"
+                        fill="#CFC6D8"
+                      />
+                    </g>
+                  </g>
+                </svg>
+
                 {t('tickets')}
               </p>
             </div>
@@ -134,9 +166,9 @@ export default function TicketSection({ lng }: { lng: string }) {
                 </div>
               </div>
             </div>
-            <button
-              type="button"
+            <Link
               className="rounded-[8px]  px-[10px] lg:px-[36px] mt-[35px] lg:my-[2vw] mb-[28px] py-[14px] lg:py-[0.885vw] w-full border-2 bg-[#7c32c9] border-solid border-[#7C32C9] flex items-center justify-center"
+              href="/dashboard-tickets/add-ticket"
             >
               <img
                 className="w-[18px] lg:w-[24px]"
@@ -147,7 +179,7 @@ export default function TicketSection({ lng }: { lng: string }) {
               <h2 className="ps-[8px] text-white text-[13px] md:text-[20px] inter-bold">
                 {t('openNewTicket')}
               </h2>
-            </button>
+            </Link>
           </div>
         </div>
         <div className=" flex-1 flex flex-col ak overflow-y-auto px-[12px] py-[25px]  lg:py-[36px] lg:px-[45px] bg-[#E2E6EF] rounded-[30px]">
@@ -310,7 +342,7 @@ export default function TicketSection({ lng }: { lng: string }) {
             </div>
           </div>
           <div className="flex-1 ak overflow-y-auto mt-[30px]  ">
-            <div className="grid ltr:ps-[10px] rtl:pe-[10px] grid-cols-1 2xl:grid-cols-2 gap-[30px] lg:gap-x-[60px]">
+            <div className="grid sm:ltr:ps-[10px] sm:rtl:pe-[10px] grid-cols-1 2xl:grid-cols-2 gap-[30px] lg:gap-x-[60px]">
               <UserTicket />
               <UserTicket />
               <UserTicket />
@@ -338,7 +370,7 @@ export default function TicketSection({ lng }: { lng: string }) {
               <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-end">
                 <div>
                   <div
-                    className="isolate inline-flex -space-x-px rounded-md shadow-sm sm:gap-x-[10px]"
+                    className="isolate inline-flex -space-x-px rounded- sm:gap-x-[10px]"
                     aria-label="Pagination"
                   >
                     <Link

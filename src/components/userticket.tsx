@@ -13,7 +13,7 @@ export default function UserTicket() {
         />
       </div>
       <div className="flex-1 h-full flex flex-col md:flex-row justify-between ">
-        <div className="flex py-[20px] px-[25px] lg:px-[40px] flex-col justify-between">
+        <div className="flex py-[20px] px-[25px] flex-col justify-between">
           <div>
             <h2 className="diodrum-semibold text-center md:text-start font-size-20 mb-[5px] text-[#332F66] ">
               {t('cantUseChatbot')}
@@ -46,7 +46,7 @@ export default function UserTicket() {
           </p>
           <Link
             className="inline-block bg-white border-[3px] border-solid rounded-[8px] border-[#1E1B3F] inter-bold text-[12px] text-[#1E1B3F] py-[8px] md:py-[14px] px-[15px] 2xl:px-[16px] lg:text-[14px] hover:bg-[#1E1B3F] hover:text-[white] transition-colors duration-75 ease-in-out hover:border-transparent"
-            href="/"
+            href="/dashboard-tickets/tickets-details"
           >
             {t('showDetails')}
           </Link>

@@ -17,6 +17,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'auth-bg': "url('/img/auth-bg.png')",
+        'add-ticket-hero': "url('/img/add-ticket-hero.png')",
       },
       boxShadow: {
         custom: '0px 15px 30px 0px rgba(0, 0, 0, 0.15)',

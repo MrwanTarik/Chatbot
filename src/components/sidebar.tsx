@@ -11,6 +11,8 @@ export default function Sidebar({ lng }: { lng: string }) {
   const pathName = usePathname();
   const dashboardActive = pathName.split('/')[2] === 'dashboard';
   const ticketsActive = pathName.split('/')[2] === 'dashboard-tickets';
+  const settingsActive = pathName.split('/')[2] === 'dashboard-settings';
+  const faqActive = pathName.split('/')[2] === 'dashboard-faq';
   return (
     <div className="bg-[#332F66] group lg:hover:rtl:rounded-l-lg lg:hover:ltr:rounded-r-lg lg:absolute lg:hover:w-[250px] lg:transition-width lg:ease-in-out lg:duration-300 z-10  h-screen w-[50px] sm:w-[68px] px-[15px] sm:px-[22px] pt-[100px] sm:pt-[8.75vw] pb-[25px] sm:pb-[55px] ">
       <div className="flex flex-col justify-between   h-full ">
@@ -80,7 +82,9 @@ export default function Sidebar({ lng }: { lng: string }) {
             </p>
           </Link>
           <Link
-            className="flex items-center side-link lg:gap-x-[20px]  w-max"
+            className={`flex items-center side-link lg:gap-x-[20px]  w-max ${
+              settingsActive ? 'active-sidebar' : ''
+            }`}
             href="/dashboard-settings"
           >
             <svg
@@ -101,7 +105,9 @@ export default function Sidebar({ lng }: { lng: string }) {
             </p>
           </Link>
           <Link
-            className="flex items-center side-link lg:gap-x-[20px]  w-max"
+            className={`flex items-center side-link lg:gap-x-[20px]  w-max ${
+              faqActive ? 'active-sidebar' : ''
+            }`}
             href="/dashboard-faq"
           >
             <svg

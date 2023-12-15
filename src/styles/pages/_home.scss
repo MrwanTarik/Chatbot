@@ -1,8 +1,14 @@
 .tele-input{
   direction: rtl;
 }
-.active-message {
-  color: #7C32C9;
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+
+.accordion-content.open {
+  max-height: 500px; /* Adjust as needed */
 }
 
 /* Hide scrollbar by default */
@@ -11,7 +17,7 @@
   height: 0; /* for horizontal scrollbars */
 }
 
-.ak {
+::-webkit-scrollbar{
   scrollbar-width: none; /* for Firefox */
   -ms-overflow-style: none;  /* for Internet Explorer and Edge */
 }
@@ -39,3 +45,8 @@
 }
 
 
+.active-tab {
+  color: #7C32C9;
+  font-family: 'DiodrumArabic';
+  font-weight: 600;
+}

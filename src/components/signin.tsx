@@ -15,7 +15,7 @@ export default function SignInSection({ lng }: { lng: string }) {
       <div className="absolute top-[20px] rtl:left-[20px] ltr:right-[20px] text-white md:text-black">
         <LanguageSwitcherClient lng={lng} />
       </div>
-      <div className="h-full w-full md:w-[50%] flex justify-center items-center ">
+      <div className="h-full w-full  md:w-[50%] flex justify-center items-center ">
         <Link href="/">
           <img
             src="/img/logo.png"
@@ -104,7 +104,7 @@ export default function SignInSection({ lng }: { lng: string }) {
               </div>
               <Link
                 className="w-full text-white flex items-center tajawal-bold justify-center py-[12px] lg:py-[0.833vw] bg-[#7C32C9] rounded-[10px] mb-[15px] lg:mb-[1.042vw] "
-                href="/dashboard"
+                href={`${lng === 'en' ? '/en' : '/ar'}/dashboard`}
               >
                 <p className="pe-[8px] lg:pe-[0.781vw]">{t('signIn')}</p>
                 <img

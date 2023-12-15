@@ -1,7 +1,7 @@
 import { t } from 'i18next';
 import React from 'react';
 
-export default function requestuserCard() {
+export default function RequestUserCard() {
   return (
     <div className="flex items-center mt-4 lg:mt-8 first:mt-0 gap-x-[15px] lg:gap-x-[1.354vw] mb-[40px] lg:mb-[52px]">
       <div className="w-[40px] lg:w-[3.854vw]">
